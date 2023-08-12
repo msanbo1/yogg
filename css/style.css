@@ -1366,7 +1366,7 @@ svg.slider-shape {
 
 .single-work img {
   width: 100%;
-  height: auto;
+  height: 60vh;
 }
 
 .single-work .title {
@@ -1682,8 +1682,13 @@ svg.slider-shape {
   font-weight: 600;
   text-transform: uppercase;
 }
+select#services {
+  color: #333;
+  border-radius: 10px;
+}
 
 /*contact details*/
+
 .contact-sec .contact-background {
   position: absolute;
   right: 0;
@@ -1695,9 +1700,11 @@ svg.slider-shape {
   font-family: Roboto, sans-serif;
   width: 90%;
   margin-left: 20px;
-  padding-top: 20%;
 }
-
+.contact-details img {
+  opacity: 0.8;
+  border: #fff solid 4px;
+}
 .contact-sec .contact-details .heading {
   margin-bottom: 35px;
   font-size: 30px;
